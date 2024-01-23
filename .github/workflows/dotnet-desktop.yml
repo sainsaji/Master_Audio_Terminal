@@ -29,4 +29,9 @@ jobs:
       - name: publish
         run: |
              msbuild Master_Audio_Terminal.sln /t:Publish /p:Configuration=Release /p:Platform="Any CPU" /p:PublishDir="./artifacts"
-      
+             
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: WinForms-Package
+          path: ${{ env.Wap_Project_Directory }}\AppPackages
