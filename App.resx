@@ -198,10 +198,22 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOD/8cAD/weujew4zGLTqgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="socialButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAAHUAAAB1AePCB2UAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAABIUlEQVQ4T6XTP0oDQRiH4YHYaqd3CZZqYQTPkCDWmjto5Z8ubVTSJdpYmYMENQE9gYKCCoLo++5m
+        ZN3MguIPHpjJzDc7s5kNFVnDMz6nbK/i1znBFSySbX+rzBLO0cE2HtFETAsPcMw5A1jznR5GGOIOB6gh
+        Zg5HcMw5zrUmSx0fWM56P2OhynGuNdaGC1zaKGQBZ3jDK04xj2Ks8dihjXds2pnG4luso4ExXCTGudbs
+        ZD2yj5u8mW3Zp1oc4yL+Fo/j4nt5M48LXOfN5AIbeEFygdQR3K7b9skWT9BFTDzCrp3US/SFuYg7kZeo
+        8iX++280xYt0j0MUC20fw7GZi2S8ln14TbfgtU1dZcec49xFVObPH1M5Fj0hfs62V1BKCF+QHlQoO9T7
+        PwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="btnSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dAAAAHQBMYXlgQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEhSURBVDhPpdM/
+        cgAAAHIBsYahGgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEhSURBVDhPpdM/
         SgNBGIfhgdhqp3cJlmphBM+QINaaO2jlny5tVNIl2liZgwQ1AT2BgoIKguj77mZk3cyC4g8emMnMNzuz
         mQ0VWcMzPqdsr+LXOcEVLJJtf6vMEs7RwTYe0URMCw9wzDkDWPOdHkYY4g4HqCFmDkdwzDnOtSZLHR9Y
         zno/Y6HKca411oYLXNooZAFneMMrTjGPYqzx2KGNd2zamcbiW6yjgTFcJMa51uxkPbKPm7yZbdmnWhzj
