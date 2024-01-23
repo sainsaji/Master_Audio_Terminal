@@ -1,6 +1,6 @@
 ﻿namespace Mater_Audio_Terminal
 {
-    partial class Form1
+    partial class App
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(App));
             this.panel1 = new System.Windows.Forms.Panel();
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.titleLabel = new System.Windows.Forms.Label();
@@ -40,10 +40,13 @@
             this.btnDashboard = new System.Windows.Forms.Button();
             this.sideBarTransistion = new System.Windows.Forms.Timer(this.components);
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.socialButton1 = new ReaLTaiizor.Controls.SocialButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHam)).BeginInit();
             this.sideBar.SuspendLayout();
             this.sidebarPanel.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -107,6 +110,7 @@
             // 
             this.sideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(63)))));
             this.sideBar.Controls.Add(this.sidebarPanel);
+            this.sideBar.Controls.Add(this.flowLayoutPanel1);
             this.sideBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sideBar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.sideBar.Location = new System.Drawing.Point(0, 40);
@@ -120,7 +124,7 @@
             this.sidebarPanel.Controls.Add(this.btnDashboard);
             this.sidebarPanel.Location = new System.Drawing.Point(3, 3);
             this.sidebarPanel.Name = "sidebarPanel";
-            this.sidebarPanel.Size = new System.Drawing.Size(234, 182);
+            this.sidebarPanel.Size = new System.Drawing.Size(234, 472);
             this.sidebarPanel.TabIndex = 3;
             // 
             // btnSettings
@@ -139,6 +143,7 @@
             this.btnSettings.TabIndex = 4;
             this.btnSettings.Text = "Settings";
             this.btnSettings.UseVisualStyleBackColor = false;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // btnDashboard
             // 
@@ -171,7 +176,29 @@
             this.mainPanel.Size = new System.Drawing.Size(782, 563);
             this.mainPanel.TabIndex = 3;
             // 
-            // Form1
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.socialButton1);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 481);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(228, 70);
+            this.flowLayoutPanel1.TabIndex = 4;
+            // 
+            // socialButton1
+            // 
+            this.socialButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.socialButton1.DownEllipseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.socialButton1.HoverEllipseColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.socialButton1.Image = ((System.Drawing.Image)(resources.GetObject("socialButton1.Image")));
+            this.socialButton1.Location = new System.Drawing.Point(3, 3);
+            this.socialButton1.Name = "socialButton1";
+            this.socialButton1.NormalEllipseColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.socialButton1.Size = new System.Drawing.Size(54, 54);
+            this.socialButton1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.socialButton1.TabIndex = 0;
+            this.socialButton1.Text = "Settings";
+            // 
+            // App
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1019, 603);
@@ -180,13 +207,14 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
-            this.Name = "Form1";
+            this.Name = "App";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHam)).EndInit();
             this.sideBar.ResumeLayout(false);
             this.sidebarPanel.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -203,6 +231,8 @@
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Timer sideBarTransistion;
         private System.Windows.Forms.Panel mainPanel;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private ReaLTaiizor.Controls.SocialButton socialButton1;
     }
 }
 
