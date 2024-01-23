@@ -1,0 +1,16 @@
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\bin\Debug\Mater_Audio_Terminal.exe.config
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\bin\Debug\Mater_Audio_Terminal.exe
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\bin\Debug\Mater_Audio_Terminal.pdb
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\bin\Debug\ReaLTaiizor.dll
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\bin\Debug\ReaLTaiizor.xml
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.csproj.AssemblyReference.cache
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.Form1.resources
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.Properties.Resources.resources
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.csproj.GenerateResource.cache
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.csproj.CoreCompileInputs.cache
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.csproj.CopyComplete
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.exe
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.pdb
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\obj\Debug\Mater_Audio_Terminal.UserControls.UC_Dashboard.resources
+C:\Users\Sain.Saji\source\repos\Mater_Audio_Terminal\bin\Debug\CodeArtEng.Gauge.dll
