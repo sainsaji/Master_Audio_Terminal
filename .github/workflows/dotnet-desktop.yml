@@ -13,6 +13,10 @@ jobs:
   build:
     runs-on: [windows-2019]
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
       
@@ -21,8 +25,8 @@ jobs:
 
       - name: build
         run: |
-             msbuild ./Master_Audio_Terminal.sln /t:Build /p:Configuration=Release /p:Platform="Any CPU" /verbosity:minimal
+             msbuild Master_Audio_Terminal.sln /t:Build /p:Configuration=Release /p:Platform="Any CPU" /verbosity:minimal
       - name: publish
         run: |
-             msbuild ./Master_Audio_Terminal.sln /t:Publish /p:Configuration=Release /p:Platform="Any CPU" /p:PublishDir="./artifacts"
+             msbuild Master_Audio_Terminal.sln /t:Publish /p:Configuration=Release /p:Platform="Any CPU" /p:PublishDir="./artifacts"
       
