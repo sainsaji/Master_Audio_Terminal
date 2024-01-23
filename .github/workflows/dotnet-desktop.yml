@@ -23,6 +23,9 @@ jobs:
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1.0.5
 
+      - name: nuget restore
+        run: nuget restore Master_Audio_Terminal.sln
+
       - name: build
         run: |
              msbuild Master_Audio_Terminal.sln /t:Build /p:Configuration=Release /p:Platform="Any CPU" /verbosity:minimal
